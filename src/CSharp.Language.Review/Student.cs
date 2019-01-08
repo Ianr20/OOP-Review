@@ -9,6 +9,5 @@ namespace CSharp.Language.Review
     class Student
     {
         public string Name { get; private set; }
-        public 
     }
 }
