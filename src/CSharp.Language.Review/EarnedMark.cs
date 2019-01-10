@@ -20,8 +20,8 @@ namespace CSharp.Language.Review
                 _earned = value;
             }
         }
-        public double Percent
 
+        public double Percent
         { get { return (Earned / Possible) * 100; } }
 
         public double WeightedPercent
