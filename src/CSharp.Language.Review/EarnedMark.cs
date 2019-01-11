@@ -27,7 +27,9 @@ namespace CSharp.Language.Review
         public double WeightedPercent
         { get { return Percent * Weight / 100; } }
 
+        //calls another constructor before it runs the body of the method
 
+        //connecting / hooking up constructors like this is called daisy chaining your constructor calls
         public EarnedMark(WeightedMark markableItem, int possible, double earned)
             : this(markableItem.Name, markableItem.Weight, possible, earned)
         {
@@ -49,3 +51,5 @@ namespace CSharp.Language.Review
         }
     }
 }
+// base is what youre inhariting from
+// this is where youre working in
