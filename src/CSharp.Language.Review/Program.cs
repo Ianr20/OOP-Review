@@ -20,6 +20,7 @@ namespace CSharp.Language.Review
         // a static field initialized to a new random object
         private static Random rnd = new Random();
 
+
         //main() us the enry point
         //the body of the main method acts as a driver of the application
         // as soon as you exit the main you stop
@@ -39,7 +40,7 @@ namespace CSharp.Language.Review
 
        //this field is acting as a backing store for the students property
        // provides controlled accest to the data in the backing store
-
+       int hellp = 10;
         
         private List<Student> _students = new List<Student>();
 
